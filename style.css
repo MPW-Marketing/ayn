@@ -3,7 +3,7 @@ Theme Name: ayn
 Description: ayn is a responsive widget-ready theme created for the Alexander Youth Network.
 Author: Sharon Colombo
 Author URI: http://www.colombodesigns.com
-Version: 1.1
+Version: 1.1.1
 Tags: two columns, custom headers, widgets, easy customization, valid XHTML, valid CSS
 */
 
@@ -1421,7 +1421,8 @@ ul.footer-menu li a
   padding-top: 20px;
 }
 
-.footer #accredited
+.footer #accredited,
+.footer .accredited-image
 {
   float: left;
   padding-right: 15px;
@@ -1433,6 +1434,7 @@ ul.footer-menu li a
   line-height: 16px;
   padding: 5px 0px;
   max-width: 550px;
+  max-width: 90%;
 }
 
 

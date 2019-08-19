@@ -24,10 +24,10 @@ endif;
 </div>
 </div>
 <div class="fullwidth row accredited">
-<div class="half accredited-half"><img id="accredited" src="<?php the_field('accredited_image', 'option'); ?>">
+<div class="half accredited-half"><img id="accredited" class="accredited-image" src="<?php the_field('accredited_image', 'option'); ?>">
 <p><?php the_field('accredited_copy', 'option'); ?></p>
 </div>
-<div class="half accredited-half"><img id="accredited-two" src="<?php  the_field('accredited_image_two', 'option');  ?>">
+<div class="half accredited-half"><img id="accredited-two" class="accredited-image" src="<?php  the_field('accredited_image_two', 'option');  ?>">
 <p><?php the_field('accredited_second_copy', 'option'); ?></p>
 </div>
 </div>
