@@ -16,7 +16,6 @@ if( have_rows('social_media_repeater', 'option') ):?>
     // no rows found
 endif;
 ?>
-<a class="button enews" href="<?php the_field('e-news_sign_up_link', 'option'); ?>">Sign Up for E-News</a>
 </div>
 </div>
 <div class="third">
