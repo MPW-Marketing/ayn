@@ -70,7 +70,7 @@ endif;
 <div class="wrapper phone">
 <div class="fullwidth row">
 <div id="logo">
-<div><a href="<?php the_field('logo_link', 'option'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" /></a></div>
+<div><a href="<?php the_field('logo_link', 'option'); ?>"><img src="<?php the_field('header_logo_image', 'option'); ?>" /></a></div>
 </div>
 <div id="phone"><div id="bluebutton"><span>call for services</span><span class="number"><?php the_field('crisis_phone_number', 'option'); ?></span></div></div>
 </div>
